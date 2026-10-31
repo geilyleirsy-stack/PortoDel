@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laela Aldellisa - Portfolio 2026</title>
+    <!-- Tailwind CSS via CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        navy: {
+                            700: '#1D3557',
+                            800: '#1E293B',
+                            900: '#0F172A',
+                            accent: '#1D4ED8'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- Fonts & Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body { font-family: 'Plus Jakarta Sans', sans-serif; }
+    </style>
+</head>
+<body class="bg-white text-slate-800 antialiased selection:bg-navy-900 selection:text-white">
+
+    <!-- Navbar -->
+    <header class="fixed top-0 left-0 w-full bg-white/90 backdrop-blur-md z-50 border-b border-slate-100">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="text-xl font-extrabold tracking-wider text-navy-900 uppercase">
+                LAELA<span class="text-navy-accent">.</span>
+            </a>
+            <nav class="hidden md:flex space-x-8 text-sm font-semibold text-slate-600">
+                <a href="#about" class="hover:text-navy-900 transition-colors">Tentang Saya</a>
+                <a href="#experience" class="hover:text-navy-900 transition-colors">Pengalaman</a>
+                <a href="#projects" class="hover:text-navy-900 transition-colors">Projects</a>
+                <a href="#skills" class="hover:text-navy-900 transition-colors">Keahlian</a>
+            </nav>
+            <a href="#contact" class="bg-navy-900 text-white px-6 py-2.5 rounded-lg text-sm font-bold hover:bg-navy-accent transition-colors shadow-sm">
+                Hubungi Saya
+            </a>
+        </div>
+    </header>
+
+    <main class="pt-16">
+
+        <!-- Hero Section (Inspired by Behance Cover Style) -->
+        <section class="bg-navy-900 text-white py-24 sm:py-32 px-6 relative overflow-hidden">
+            <!-- Background Accent Grid/Shadow Effect -->
+            <div class="absolute inset-0 opacity-10 bg-[radial-gradient(#fff_1px,transparent_1px)] [background-size:16px_16px]"></div>
+            
+            <div class="max-w-5xl mx-auto text-center relative z-10">
+                <div class="inline-block bg-white text-navy-900 px-4 py-1.5 rounded-sm font-black text-xs uppercase tracking-widest mb-6 shadow-md">
+                    PORTOFOLIO 2026
+                </div>
+                <h1 class="text-4xl sm:text-7xl font-extrabold tracking-tight uppercase leading-none mb-6">
+                    LAELA ALDELLISA
+                </h1>
+                <p class="text-xl sm:text-2xl text-slate-300 font-light max-w-2xl mx-auto mb-8 italic">
+                    "Your only limit is your mind"
+                </p>
+                <div class="flex justify-center gap-4">
+                    <a href="#projects" class="bg-white text-navy-900 px-8 py-3.5 rounded-lg font-bold hover:bg-slate-100 transition-all shadow-lg">
+                        Lihat Project <i class="fa-solid fa-arrow-down ml-2 text-xs"></i>
+                    </a>
+                    <a href="#contact" class="border-2 border-white text
